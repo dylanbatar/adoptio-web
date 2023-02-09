@@ -1,4 +1,11 @@
 # ADOPTION-WEB
+🚀 Visit to: https://adoptio-web.vercel.app/
+
+![home-page](https://i.postimg.cc/BvmvKgdC/screencapture-adoptio-web-vercel-app-2023-02-09-12-06-57.png)
+![pet-page](https://i.postimg.cc/jCYqbk7R/screencapture-adoptio-web-vercel-app-pet-1-2023-02-09-12-06-40.png)
+
+
+
 
 ## HOW TO RUN (localy)
 plase take in mind this project was create with the node version 18.x
