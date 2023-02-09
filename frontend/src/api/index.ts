@@ -1,5 +1,3 @@
 import axios from "axios";
 
-const { HOST_API } = process.env;
-
-export const petApi = axios.create({ baseURL: HOST_API || "http://localhost:3001" });
+export const petApi = axios.create({ baseURL: "https://adoptio-web-production.up.railway.app/" });
