@@ -1,15 +1,17 @@
-import logo from "./logo.svg";
-import "./App.css";
+import { HomePage } from "./screens/home";
+import { Footer } from "./shared/components/footer";
+import { Navbar } from "./shared/components/navbar";
+import 'animate.css';
 
-function App() {
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo mb-5" alt="logo" />
-        <h1 className="text-3xl font-bold underline">Hello world! reloadddd</h1>
-      </header>
+    <div className="">
+      <Navbar/>
+      <HomePage />
+      <Footer/>
     </div>
   );
-}
+};
 
 export default App;
