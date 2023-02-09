@@ -1,12 +1,13 @@
+import { useNavigate } from "react-router-dom";
 import { Button } from "../../components/button";
 
 export interface PetPageProps {
-  id: number;
-  name: string;
-  gender: string;
-  imageFileName: string;
-  description: string;
-  age: string;
+  id?: number;
+  name?: string;
+  gender?: string;
+  imageFileName?: string;
+  description?: string;
+  age?: string;
 }
 
 export const PetPage = ({
@@ -16,6 +17,9 @@ export const PetPage = ({
   description,
   age,
 }: PetPageProps) => {
+
+  const navigate = useNavigate();
+
   return (
     <section className="py-20 container mx-auto">
       <div className="flex justify-around">
@@ -49,7 +53,7 @@ export const PetPage = ({
             </li>
           </ul>
           <div className="mt-5">
-            <Button title="Back" />
+            <Button title="Back" onClick={() => navigate("/")} />
           </div>
         </div>
       </div>

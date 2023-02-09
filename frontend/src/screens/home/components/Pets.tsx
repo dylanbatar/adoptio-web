@@ -81,6 +81,7 @@ export const Pets = () => {
           {data.map((pet) => (
             <Card
               key={pet.id}
+              id={pet.id}
               name={pet.name}
               image={`${process.env.PUBLIC_URL}/assets/${pet.imageFileName}`}
             />
